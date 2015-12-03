@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="sort_types" description="Sorting options for the All Apps in Launcher." maxwidth="-1">
+        <item>@string/sort_by_a_z</item>
+        <item>@string/sort_by_z_a</item>
+    </string-array>
+
+    <string-array name="sort_types_download" description="Sorting options for the All Apps in Launcher." maxwidth="-1">
+        <item>@string/sort_by_a_z</item>
+        <item>@string/sort_by_z_a</item>
+        <item>@string/sort_by_update_time</item>
+    </string-array>
+
+    <string-array name="scroll_animation_types">
+        <item name="wave">@string/scroll_animation_types_wave</item>
+        <item name="classic">@string/scroll_animation_types_classic</item>
+        <item name="revolving">@string/scroll_animation_types_revolving</item>
+        <item name="cardflip">@string/scroll_animation_types_cardflip</item>
+        <item name="windmill_upward">@string/scroll_animation_types_windmill_upward</item>
+        <item name="windmill_downward">@string/scroll_animation_types_windmill_downward</item>
+        <item name="fa">@string/scroll_animation_types_fan</item>
+        <item name="accordion">@string/scroll_animation_types_accordion</item>
+        <item name="flip">@string/scroll_animation_types_flip</item>
+        <item name="cube_inside">@string/scroll_animation_types_cube_inside</item>
+        <item name="cube_outside">@string/scroll_animation_types_cube_outside</item>
+    </string-array>
+
+    <string-array name="scroll_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="widget_grid_size_types_port">
+        <item name="2x3">2 x 3</item>
+        <item name="2x4">2 x 4</item>
+    </string-array>
+
+    <string-array name="widget_grid_size_values_port">
+        <item name="2x3">23</item>
+        <item name="2x4">24</item>
+    </string-array>
+
+    <string-array name="widget_grid_size_types_land">
+        <item name="3x2">3 x 2</item>
+        <item name="4x2">4 x 2</item>
+    </string-array>
+
+    <string-array name="widget_grid_size_values_land">
+        <item name="3x2">32</item>
+        <item name="4x2">42</item>
+    </string-array>
+
+    <string-array name="grid_size_phone_types">
+        <item name="3x3">3 x 3</item>
+        <item name="3x4">3 x 4</item>
+        <item name="4x3">4 x 3</item>
+        <item name="4x4">4 x 4</item>
+        <item name="4x5">4 x 5</item>
+        <item name="5x4">5 x 4</item>
+        <item name="5x5">5 x 5</item>
+    </string-array>
+
+    <string-array name="grid_size_pad_port_types">
+        <item name="4x4">4 x 4</item>
+        <item name="4x5">4 x 5</item>
+        <item name="5x4">5 x 4</item>
+        <item name="5x5">5 x 5</item>
+        <item name="6x5">6 x 5</item>
+        <item name="6x6">6 x 6</item>
+    </string-array>
+
+    <string-array name="grid_size_pad_land_types">
+        <item name="4x3">4 x 3</item>
+        <item name="4x4">4 x 4</item>
+        <item name="5x3">5 x 3</item>
+        <item name="5x4">5 x 4</item>
+        <item name="6x3">6 x 3</item>
+        <item name="6x4">6 x 4</item>
+    </string-array>
+
+    <string-array name="grid_size_phone_types_for_att">
+        <item name="3x3">3 x 3</item>
+        <item name="3x4">3 x 4</item>
+        <item name="4x3">4 x 3</item>
+        <item name="4x4">4 x 4</item>
+    </string-array>
+
+    <string-array name="grid_size_pad_port_types_for_att">
+        <item name="4x4">4 x 4</item>
+        <item name="4x5">4 x 5</item>
+        <item name="5x4">5 x 4</item>
+        <item name="5x5">5 x 5</item>
+        <item name="6x5">6 x 5</item>
+    </string-array>
+
+    <string-array name="grid_size_pad_land_types_for_att">
+        <item name="4x3">4 x 3</item>
+        <item name="4x4">4 x 4</item>
+        <item name="5x3">5 x 3</item>
+        <item name="5x4">5 x 4</item>
+        <item name="6x3">6 x 3</item>
+        <item name="6x4">6 x 4</item>
+    </string-array>
+
+    <string-array name="workspace_grid_5_6_devices">
+        <item name="4x4">4 x 4</item>
+        <item name="4x5">4 x 5</item>
+    </string-array>
+
+    <string-array name="view_mode">
+        <item name="normal">@string/show_all_apps</item>
+        <item name="download">@string/show_download_apps</item>
+        <item name="customized">@string/sort_by_customized</item>
+        <item name="frequency">@string/show_recent_apps</item>
+    </string-array>
+
+    <string-array name="view_mode_widget">
+        <item name="normal">@string/show_all_apps</item>
+        <item name="download">@string/show_download_apps</item>
+    </string-array>
+
+    <string-array name="badge_support_list_default_name">
+        <item name="com.whatsapp">WhatsApp Messenger</item>
+        <item name="com.tencent.mm">@string/badge_support_list_wechat</item>
+        <item name="com.bbm">BBM</item>
+        <item name="com.google.android.talk">Hangouts</item>
+        <item name="com.tencent.mobileqqi">QQ International</item>
+        <item name="com.tencent.mobileqq">QQ</item>
+        <item name="com.yahoo.mobile.client.android.im">Yahoo Messenger</item>
+    </string-array>
+
+    <string-array name="iconpack_intent_action_list">
+        <item name="asus">com.asus.launcher.intent.action.ICONPACK_CHANGE</item>
+        <item name="apex">android.intent.action.MAIN</item>
+        <item name="adw">org.adw.launcher.THEMES</item>
+        <item name="nova">android.intent.action.MAIN</item>
+    </string-array>
+
+    <string-array name="iconpack_intent_category_list">
+        <item name="asus">android.intent.category.DEFAULT</item>
+        <item name="apex">com.anddoes.launcher.THEME</item>
+        <item name="adw">android.intent.category.DEFAULT</item>
+        <item name="nova">com.teslacoilsw.launcher.THEME</item>
+    </string-array>
+
+    <string-array name="default_bg_list_iconpack_preview_thumb">
+        <item name="bg_1">wallpaper_bg1</item>
+        <item name="bg_2">wallpaper_bg2</item>
+        <item name="bg_3">wallpaper_bg3</item>
+        <item name="bg_4">wallpaper_bg4</item>
+        <item name="bg_5">wallpaper_bg5</item>
+        <item name="bg_6">wallpaper_bg6</item>
+    </string-array>
+
+    <string-array name="default_theme_ic_list">
+        <item name="asus_phone">ic_launcher_phone</item>
+        <item name="asus_contact">asus_icon_people</item>
+        <item name="asus_message">asus_icon_message</item>
+        <item name="asus_mail">asus_icon_mail</item>
+        <item name="asus_music">asus_icon_music</item>
+        <item name="asus_camera">ic_launcher_camera</item>
+        <item name="asus_gallery">ic_launcher_ephoto</item>
+        <item name="asus_calendar">ic_launcher_calendar</item>
+        <item name="asus_browser">ic_launcher_browser</item>
+    </string-array>
+
+    <!-- 3x3 Home Management -->
+    <array name="workspace_chooser_normal_colors">
+        <item>@color/workspace_chooser_buttons_background_color_0</item>
+        <item>@color/workspace_chooser_buttons_background_color_1</item>
+        <item>@color/workspace_chooser_buttons_background_color_2</item>
+        <item>@color/workspace_chooser_buttons_background_color_3</item>
+        <item>@color/workspace_chooser_buttons_background_color_4</item>
+        <item>@color/workspace_chooser_buttons_background_color_5</item>
+        <item>@color/workspace_chooser_buttons_background_color_6</item>
+        <item>@color/workspace_chooser_buttons_background_color_7</item>
+        <item>@color/workspace_chooser_buttons_background_color_8</item>
+    </array>
+
+    <array name="workspace_chooser_pressed_colors">
+        <item>@color/workspace_chooser_buttons_background_color_pressed_0</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_1</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_2</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_3</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_4</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_5</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_6</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_7</item>
+        <item>@color/workspace_chooser_buttons_background_color_pressed_8</item>
+    </array>
+
+    <!--
+        Mapping of {Android language id : TTF language id}
+
+        The keys are retrieved by Locale.getDefault().toString(), in the format of {language name}_{country name}.
+
+        Refer to:
+            http://res.amax.asus.com
+            http://developer.android.com/reference/java/util/Locale.html
+            http://www.nationsonline.org/oneworld/country_code_list.htm
+
+        The values are ttf language ids under Windows. (hexadecimal)
+
+        Refer to:
+            http://www.microsoft.com/typography/otspec/name.htm
+    -->
+    <string-array name="ttf_language_id_mapping">
+         <item>ar_SA#0401</item>
+         <item>bg_BG#0402</item>
+         <item>cs_CZ#0405</item>
+         <item>da_DK#0406</item>
+         <item>de_DE#0407</item>
+         <item>el_GR#0408</item>
+         <item>en_GB#0809</item>
+         <item>es_US#540A</item>
+         <item>es_ES#0C0A</item>
+         <item>et_EE#0425</item>
+         <item>fi_FI#040B</item>
+         <item>fr_FR#040C</item>
+         <item>hi_IN#0439</item>
+         <item>hu_HU#040E</item>
+         <item>in_ID#0421</item>
+         <item>it_IT#0410</item>
+         <item>iw_IL#040D</item>
+         <item>ja_JP#0411</item>
+         <item>ko_KR#0412</item>
+         <item>ms_MY#043E</item>
+         <item>my_MM#0409</item>
+         <item>nb_NO#0414</item>
+         <item>nl_NL#0413</item>
+         <item>pl_PL#0415</item>
+         <item>pt_BR#0416</item>
+         <item>pt_PT#0816</item>
+         <item>ro_RO#0418</item>
+         <item>ru_RU#0419</item>
+         <item>sk_SK#041B</item>
+         <item>sv_SE#041D</item>
+         <item>th_TH#041E</item>
+         <item>tr_TR#041F</item>
+         <item>uk_UA#0422</item>
+         <item>vi_VN#042A</item>
+         <item>zh_CN#0804</item>
+         <item>zh_TW#0404</item>
+         <item>en_US#0409</item>
+    </string-array>
+
+    <string-array name="layout_mode_descriptions_layer">
+        <item>@string/layout_mode_descriptions_layer_1_new</item>
+        <item>@string/layout_mode_descriptions_layer_2_new</item>
+    </string-array>
+
+    <string-array name="layout_mode_descriptions_single">
+        <item>@string/layout_mode_descriptions_single_1_new</item>
+    </string-array>
+
+    <string-array name="auto_smart_group_tip_white_list">
+        <item name="stk">com.android.stk</item>
+        <item name="stk2">com.android.stk2</item>
+    </string-array>
+
+    <string-array name="auto_update_block_list">
+        <item>K00C</item>
+        <item>ASUS-T00D</item>
+        <item>TF502T</item>
+        <item>ASUS-T008</item>
+        <item>TF600T</item>
+        <item>ASUS-A86</item>
+        <item>ME302KL</item>
+        <item>TX201LA</item>
+        <item>K00Y</item>
+        <item>A68</item>
+        <item>K00E</item>
+        <item>P1801-T</item>
+        <item>TF300TL</item>
+        <item>ME302C</item>
+        <item>ASUS-K00S</item>
+        <item>K00Z</item>
+        <item>TF300T</item>
+        <item>A80</item>
+        <item>TF300TG</item>
+        <item>TF700T</item>
+        <item>K00G</item>
+        <item>ASUS-A80</item>
+        <item>P1802-T</item>
+        <item>ME301T</item>
+        <item>T10xTA</item>
+    </string-array>
+
+    <string-array name="allapps_sg_tip2_menu">
+        <item>@string/allapps_options_edit</item>
+        <item>@string/allapps_options_auto_grouping</item>
+        <item>@string/allapps_options_set_applock</item>
+        <item>@string/allapps_options_hide</item>
+        <item>@string/allapps_options_uninstall</item>
+        <item>@string/settings_change_widget_grid_size</item>
+        <item>@string/settings_play_store_title</item>
+        <item>@string/workspace_chooser_preferences_button</item>
+    </string-array>
+
+    <string-array name="allapps_sg_tip1_default_apps">
+        <item>com.asus.calculator</item>
+        <item>com.asus.calendar</item>
+        <item>com.asus.task</item>
+        <item>com.asus.message</item>
+    </string-array>
+
+    <string-array name="folder_style_list">
+        <item>@string/folder_style_classic</item>
+        <item>@string/folder_style_full_screen</item>
+    </string-array>
+
+    <string-array name="advanced_applock_descriptions">
+        <item>@string/advanced_applock_descriptions_1</item>
+        <item>@string/advanced_applock_descriptions_2</item>
+    </string-array>
+
+    <string-array name="basic_applock_descriptions">
+        <item>@string/basic_applock_descriptions_1</item>
+    </string-array>
+
+    <string-array name="trending_locale_list_entries">
+        <item>@string/trending_locale_AUTO</item>
+        <item>@string/trending_locale_US</item>
+        <item>@string/trending_locale_IN</item>
+        <item>@string/trending_locale_JP</item>
+        <item>@string/trending_locale_SG</item>
+        <item>@string/trending_locale_IL</item>
+        <item>@string/trending_locale_AU</item>
+        <item>@string/trending_locale_GB</item>
+        <item>@string/trending_locale_HK</item>
+        <item>@string/trending_locale_TW</item>
+        <item>@string/trending_locale_CA</item>
+        <item>@string/trending_locale_RA</item>
+        <item>@string/trending_locale_DE</item>
+        <item>@string/trending_locale_FR</item>
+        <item>@string/trending_locale_NL</item>
+        <item>@string/trending_locale_BR</item>
+        <item>@string/trending_locale_ID</item>
+        <item>@string/trending_locale_MX</item>
+        <item>@string/trending_locale_KR</item>
+        <item>@string/trending_locale_TR</item>
+        <item>@string/trending_locale_PH</item>
+        <item>@string/trending_locale_ES</item>
+        <item>@string/trending_locale_IT</item>
+        <item>@string/trending_locale_VN</item>
+        <item>@string/trending_locale_EG</item>
+        <item>@string/trending_locale_AR</item>
+        <item>@string/trending_locale_PL</item>
+        <item>@string/trending_locale_CO</item>
+        <item>@string/trending_locale_TH</item>
+        <item>@string/trending_locale_MY</item>
+        <item>@string/trending_locale_UA</item>
+        <item>@string/trending_locale_SA</item>
+        <item>@string/trending_locale_KE</item>
+        <item>@string/trending_locale_CL</item>
+        <item>@string/trending_locale_RO</item>
+        <item>@string/trending_locale_MD</item>
+        <item>@string/trending_locale_ZA</item>
+        <item>@string/trending_locale_BE</item>
+        <item>@string/trending_locale_SE</item>
+        <item>@string/trending_locale_CZ</item>
+        <item>@string/trending_locale_AT</item>
+        <item>@string/trending_locale_HU</item>
+        <item>@string/trending_locale_CH</item>
+        <item>@string/trending_locale_PT</item>
+        <item>@string/trending_locale_GR</item>
+        <item>@string/trending_locale_DK</item>
+        <item>@string/trending_locale_FI</item>
+        <item>@string/trending_locale_NO</item>
+        <item>@string/trending_locale_NG</item>
+        <item>@string/trending_locale_CN</item>
+    </string-array>
+
+    <string-array name="trending_locale_list_values">
+        <item>@string/trending_locale_value_AUTO</item>
+        <item>US</item>
+        <item>IN</item>
+        <item>JP</item>
+        <item>SG</item>
+        <item>IL</item>
+        <item>AU</item>
+        <item>GB</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>CA</item>
+        <item>RA</item>
+        <item>DE</item>
+        <item>FR</item>
+        <item>NL</item>
+        <item>BR</item>
+        <item>ID</item>
+        <item>MX</item>
+        <item>KR</item>
+        <item>TR</item>
+        <item>PH</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>VN</item>
+        <item>EG</item>
+        <item>AR</item>
+        <item>PL</item>
+        <item>CO</item>
+        <item>TH</item>
+        <item>MY</item>
+        <item>UA</item>
+        <item>SA</item>
+        <item>KE</item>
+        <item>CL</item>
+        <item>RO</item>
+        <item>MD</item>
+        <item>ZA</item>
+        <item>BE</item>
+        <item>SE</item>
+        <item>CZ</item>
+        <item>AT</item>
+        <item>HU</item>
+        <item>CH</item>
+        <item>PT</item>
+        <item>GR</item>
+        <item>DK</item>
+        <item>FI</item>
+        <item>NO</item>
+        <item>NG</item>
+        <item>CN</item>
+    </string-array>
+
+    <string-array name="uta_widget_package_name_list">
+        <item>com.asus.launcher</item>
+        <item>com.asus.launcher</item>
+    </string-array>
+    <string-array name="uta_widget_class_name_list">
+        <item>com.asus.launcher.fakewidget.FakeTimeWidget</item>
+        <item>com.asus.launcher.widget.SearchWidgetProvider</item>
+    </string-array>
+
+    <string-array name="uta_launch_clock_package_list">
+        <item>com.google.android.deskclock</item>         <!-- Froyo Nexus Alarm Clock / Google Clock-->
+        <item>com.android.deskclock</item>                <!-- Standar Alarm Clock -->
+        <item>com.sonyericsson.organizer</item>           <!-- Sony Ericsson Xperia Z -->
+        <item>com.htc.android.worldclock</item>           <!-- HTC Alarm Clock -->
+        <item>com.motorola.blur.alarmclock</item>         <!-- Moto Blur Alarm Clock -->
+        <item>com.sec.android.app.clockpackage</item>     <!-- Samsung Galaxy Clock -->
+        <item>com.macropinch.axe</item>                   <!-- Alarm Clock -->
+        <item>com.sonyericsson.digitalclockwidget2</item> <!-- Digital Clock Xperia -->
+        <item>com.maize.digitalClock</item>               <!-- Digital Clock Widget -->
+        <item>com.jmt.clockwidget</item>                  <!-- Minimal Clock -->
+        <item>com.apalon.myclockfree</item>               <!-- Alarm Clock -->
+        <item>ch.bitspin.timely</item>                    <!-- Timely -->
+        <item>com.soloseal.awesomealarmclock</item>       <!-- Awesome Alarm Clock -->
+        <item>com.andronicus.ledclock</item>              <!-- Digital Alarm Clock -->
+        <item>com.droid27.transparentclockweather</item>  <!-- Transparent Weather Clock -->
+        <item>com.neddashfox.nightclock</item>            <!-- Night Clock -->
+        <item>com.bojankogoj.giantclock</item>            <!-- Giant Clock -->
+        <item>com.tomanyz.lockWatchLight</item>           <!-- WP Clock -->
+        <item>com.asus.deskclock</item>                   <!-- ASUS Clock -->
+    </string-array>
+
+</resources>
